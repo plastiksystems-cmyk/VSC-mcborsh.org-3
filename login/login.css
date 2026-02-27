@@ -1,0 +1,141 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-color: whitesmoke
+}
+
+.maincontainer {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ribbon {
+    top: 0;
+    display: flex;
+    background-color: rgb(174, 1, 0);
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    border-bottom: 0px solid rgba(128, 128, 128, 0.5);
+    position: fixed
+}
+
+.ribbon img {
+    height: 50px;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    opacity: 100%;
+    filter: grayscale(0%); 
+}
+
+.ribbon p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(248, 231, 0);
+    margin-right: 15px;
+}
+
+.ribbon a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    align-content: center;
+    height: 100%
+}
+
+.ribbon a:hover {
+    color: rgba(248, 231, 0);
+}
+
+.stripe {
+    background-color: rgba(128, 128, 128, 0);
+    width: 1px;
+    height: 100%
+}
+
+.page {
+    margin-top: 90px;
+}
+
+.info {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center
+}
+
+.login {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 40%;
+    height: 500px
+}
+
+.log1 span {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+.log2 {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.log2 form {
+    justify-self: center;
+    width: 100%
+}
+
+.log2 p {
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+.log2 input {
+    margin-left: 15%;
+    background-color: whitesmoke;
+    border: 0px solid rgb(0, 0, 0, 0);
+    width: 70%;
+    height: 30px
+}
+
+.log2 input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.log2 button {
+    margin-left: 15%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: rgb(174, 1, 0);
+    color: white;
+    font-size: 24px;
+    width: 70%;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
